@@ -11,7 +11,8 @@
    [ file—loader ]( https://github.com/webpack-contrib/file-loader )    <br/>
    # 模板文件
    [ html-webpack-plugin ]( https://github.com/jantimon/html-webpack-plugin )    <br/>
-
+   # 打包先删除再生成
+   [ clean-webpack-plugin ]( https://github.com/johnagan/clean-webpack-plugin )    <br/>
 
 
 
