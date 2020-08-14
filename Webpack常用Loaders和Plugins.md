@@ -13,6 +13,6 @@
    [ html-webpack-plugin ]( https://github.com/jantimon/html-webpack-plugin )    <br/>
    # 打包先删除再生成
    [ clean-webpack-plugin ]( https://github.com/johnagan/clean-webpack-plugin )    <br/>
-
-
+   # 便捷开发
+   [ webpack-dev-server ]( https://github.com/webpack/webpack-dev-server )    <br/>
 
