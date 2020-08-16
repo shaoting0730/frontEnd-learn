@@ -15,4 +15,7 @@
    [ clean-webpack-plugin ]( https://github.com/johnagan/clean-webpack-plugin )    <br/>
    # 便捷开发
    [ webpack-dev-server ]( https://github.com/webpack/webpack-dev-server )    <br/>
+   # 对webpack配置文件规范化
+   [ webpack-merge ](    https://github.com/survivejs/webpack-merge )    <br/>
+
 
