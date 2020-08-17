@@ -19,5 +19,6 @@
    [ webpack-merge ](    https://github.com/survivejs/webpack-merge )    <br/>
    # 工具集：如按需打包
    [ lodash ]( https://github.com/lodash/lodash )    <br/>
-   
+   # 打包分析
+   [ webpack-bundle-analyzer ]( https://github.com/webpack-contrib/webpack-bundle-analyzer )    <br/>
 
