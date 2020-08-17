@@ -17,5 +17,7 @@
    [ webpack-dev-server ]( https://github.com/webpack/webpack-dev-server )    <br/>
    # 对webpack配置文件规范化
    [ webpack-merge ](    https://github.com/survivejs/webpack-merge )    <br/>
-
+   # 工具集：如按需打包
+   [ lodash ]( https://github.com/lodash/lodash )    <br/>
+   
 
