@@ -1,6 +1,7 @@
 # frontEnd-code
    [ Webpack常用Loaders和Plugins ]( https://github.com/pheromone/frontEnd-learn/blob/master/Webpack%E5%B8%B8%E7%94%A8Loaders%E5%92%8CPlugins.md )    <br/>
-   [ web-马赛克学习 ]( https://github.com/pheromone/web-mosaic )  [![GitHub stars](https://img.shields.io/github/stars/pheromone/web-mosaic.svg?style=social&label=Stars)](https://github.com/pheromone/web-mosaic)   <br/>
+   [ 常用库 ]( https://github.com/pheromone/frontEnd-learn/blob/master/%E5%B8%B8%E7%94%A8%E5%BA%93.md )    <br/>
+   [ web-马赛克学习 ]( https://github.com/pheromone/web-mosaic )  [![GitHub stars](https://img.shields.io/github/stars/pheromone/web-mosaic.svg?style=social&label=Stars)](https://github.com/pheromone/web-mosaic)   <br/>
    [ web-精灵图学习 ]( https://github.com/pheromone/sprite-sheet ) [![GitHub stars](https://img.shields.io/github/stars/pheromone/sprite-sheet.svg?style=social&label=Stars)](https://github.com/pheromone/sprite-sheet)    <br/>
    [ React学习简单个人消费记录系统 ](  https://github.com/pheromone/react-accounts ) [![GitHub stars](https://img.shields.io/github/stars/pheromone/react-accounts.svg?style=social&label=Stars)](https://github.com/pheromone/react-accounts)     <br/>
    [ Vue学习实战项目1 ](   https://github.com/pheromone/vue_demo )  [![GitHub stars](https://img.shields.io/github/stars/pheromone/vue_demo.svg?style=social&label=Stars)](https://github.com/pheromone/vue_demo)   <br/>
