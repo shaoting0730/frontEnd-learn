@@ -1,4 +1,11 @@
 # frontEnd-code
+   ## 终端美化&vscode美化：
+   [ vscode美化文章1 ]( https://www.dazhuanlan.com/2019/10/21/5dad29a00b68f/ )    <br/>
+   [ vscode美化文章2 ]( https://zhuanlan.zhihu.com/p/37195261 )    <br/>
+   [ vscode美化文章: 本猿参考这个 ]( https://sspai.com/post/53008 )    <br/>
+   [ vscode内部终端UI ](    https://xbuba.com/questions/50992108 )    <br/>
+
+   ## 正文
    [ Webpack常用Loaders和Plugins ]( https://github.com/pheromone/frontEnd-learn/blob/master/Webpack%E5%B8%B8%E7%94%A8Loaders%E5%92%8CPlugins.md )    <br/>
    [ 常用库 ]( https://github.com/pheromone/frontEnd-learn/blob/master/%E5%B8%B8%E7%94%A8%E5%BA%93.md )    <br/>
    [ web-马赛克学习 ]( https://github.com/pheromone/web-mosaic )  [![GitHub stars](https://img.shields.io/github/stars/pheromone/web-mosaic.svg?style=social&label=Stars)](https://github.com/pheromone/web-mosaic)   <br/>
