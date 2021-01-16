@@ -23,4 +23,5 @@
    [ webpack-bundle-analyzer ]( https://github.com/webpack-contrib/webpack-bundle-analyzer )    <br/>
    # css 代码分割
    [ mini-css-extract-plugin ]( https://github.com/webpack-contrib/mini-css-extract-plugin )    <br/>
-
+   # 临时服务器
+     npm install -g live-server
