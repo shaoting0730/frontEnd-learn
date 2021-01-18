@@ -6,6 +6,7 @@
    [ vscode内部终端UI ](    https://xbuba.com/questions/50992108 )    <br/>
 
    ## 正文
+   [ Vue2.0+学习历程 ](   https://github.com/pheromone/frontEnd-learn/tree/master/vue2.0-learn )   <br/>
    [ Webpack常用Loaders和Plugins ]( https://github.com/pheromone/frontEnd-learn/blob/master/Webpack%E5%B8%B8%E7%94%A8Loaders%E5%92%8CPlugins.md )    <br/>
    [ 常用库 ]( https://github.com/pheromone/frontEnd-learn/blob/master/%E5%B8%B8%E7%94%A8%E5%BA%93.md )    <br/>
    [ web-马赛克学习 ]( https://github.com/pheromone/web-mosaic )  [![GitHub stars](https://img.shields.io/github/stars/pheromone/web-mosaic.svg?style=social&label=Stars)](https://github.com/pheromone/web-mosaic)   <br/>
