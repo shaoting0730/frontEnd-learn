@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Watch 选项 监控数据</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script type="text/javascript" src="../assets/js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <p>今天的温度是: {{temperature}}C</p>
+    <p> 建议穿衣:{{suggestion}}</p>
+    <p>
+        <button @click="add">加温</button>
+        <button @click="minus">减温</button>
+    </p>
+</div>
+<script type="text/javascript">
+    var suggestion = ['T恤短袖', '夹克长裙', '棉衣羽绒服'];
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'vue的学习的第一节课!',
+            temperature: 14,
+            suggestion: 'suggestion'
+
+        }, methods: {
+            add: function () {
+                this.temperature += 5;
+            },
+            minus: function () {
+                this.temperature -= 5;
+            }
+        }
+//        ,watch:{
+//            temperature:function (newVal, oldVal) {
+//                if(newVal>=26){
+//                    this.suggestion=suggestion[0];
+//                }else if(newVal<26 && newVal>=0){
+//                    this.suggestion=suggestion[1];
+//                }else {
+//                    this.suggestion=suggestion[2];
+//                }
+//            }
+//        }
+    })
+    app.$watch('temperature', function (newVal, oldVal) {
+        if (newVal >= 26) {
+            this.suggestion = suggestion[0];
+        } else if (newVal < 26 && newVal >= 0) {
+            this.suggestion = suggestion[1];
+        } else {
+            this.suggestion = suggestion[2];
+        }
+    })
+
+</script>
+</body>
+</html>

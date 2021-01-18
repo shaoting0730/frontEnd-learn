@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Component 父子组件关系</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script type="text/javascript" src="../assets/js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    {{message}}
+    <panda></panda>
+</div>
+<script type="text/javascript">
+    var city = {
+        template: '<div>Sichuan of China</div>'
+    }
+    var pandaComponent = {
+        template: ' <div> <p style="color:red;">Panda from China!</p> <city></city></div>',
+        components: {
+            "city": city
+        }
+    }
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'vue的学习的第一节课!'
+        }, components: {
+            "panda": pandaComponent
+        }
+    })
+
+</script>
+</body>
+</html>

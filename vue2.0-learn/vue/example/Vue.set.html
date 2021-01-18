@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue.set</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script type="text/javascript" src="../assets/js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    {{count}}
+    <ul>
+        <li v-for="aa in arr">{{aa}}</li>
+    </ul>
+</div>
+
+<p>
+    <button onclick="add()">外部添加add</button>
+
+</p>
+<script type="text/javascript">
+    function add() {
+        //方法一
+//        Vue.set(outData, 'count', 4);
+        //方法二
+        // app.count++;
+        //方法三
+//        outData.count++;
+        //++++++++
+        console.log("我已经执行了");
+//        app.arr[1]='ddd';
+        Vue.set(app.arr, 1, 'vv')
+    }
+
+    //在构造器外部声明数据
+    var outData = {
+        count: 1,
+        goodName: 'car',
+        arr: ['aaa', 'bbb', 'ccc']
+    };
+    var app = new Vue({
+        el: '#app',
+        data: outData
+    })
+
+</script>
+</body>
+</html>

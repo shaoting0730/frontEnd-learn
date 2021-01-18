@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="../assets/js/vue.js"></script>
+    <title>v-on</title>
+</head>
+<body>
+<div id="app">
+    本场比赛得分:{{count}}<br/>
+    <button v-on:click="add">加分</button>
+    <button @click="minus">减分</button>
+    <br/>
+    <input type="text" v-on:keyup.enter="onEnter" v-model="secondCount">
+</div>
+<script type="text/javascript">
+    var app = new Vue({
+        el: '#app',
+        data: {
+            count: 1
+        },
+        methods: {
+            add: function () {
+                this.count++;
+            },
+            minus: function () {
+                this.count--;
+            },
+            onEnter: function () {
+                this.count = this.count + parseInt(this.secondCount);
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

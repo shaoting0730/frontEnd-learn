@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extends Option 扩展选项</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script type="text/javascript" src="../assets/js/vue.js"></script>
+</head>
+<body>
+<h1>Hello World</h1>
+<hr>
+<div id="app">
+    {{message}}
+    <p>
+        <button @click="add">add</button>
+    </p>
+    ${num}
+</div>
+<script type="text/javascript">
+    var bbb = {
+        created: function () {
+            console.log("created_我是被扩展出来的");
+        }, methods: {
+            add: function () {
+                console.log('bbb_aaa_我是被扩展出来的方法!')
+            }
+        }
+    };
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'vue的学习的第一节课!',
+            num:1
+        }, methods: {
+            add: function () {
+                console.log('我是原生方法');
+            }
+        },
+        extends: bbb,
+        delimiters: ['${', '}']
+    })
+
+</script>
+</body>
+</html>
