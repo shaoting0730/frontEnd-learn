@@ -4,7 +4,7 @@
    [ vscode美化文章2 ]( https://zhuanlan.zhihu.com/p/37195261 )    <br/>
    [ vscode美化文章: 本猿参考这个 ]( https://sspai.com/post/53008 )    <br/>
    [ vscode内部终端UI ](    https://xbuba.com/questions/50992108 )    <br/>
-   ## vue & React
+   ## Vue & React
    [ Vue 学习历程 ]( https://github.com/pheromone/vue-learn )   <br/>
    [ React 学习历程 ]( https://github.com/pheromone/react-learn )   <br/>
    ## 杂七杂八
