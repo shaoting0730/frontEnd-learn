@@ -25,3 +25,5 @@
    [ mini-css-extract-plugin ]( https://github.com/webpack-contrib/mini-css-extract-plugin )    <br/>
    # vue-loader
    [ vue-loader ]( https://github.com/vuejs/vue-loader )    <br/>
+   # stylus-loader
+   [ stylus-loader ]( https://github.com/webpack-contrib/stylus-loader )    <br/>
