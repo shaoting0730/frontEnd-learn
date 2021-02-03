@@ -27,3 +27,5 @@
    [ vue-loader ]( https://github.com/vuejs/vue-loader )    <br/>
    # stylus-loader
    [ stylus-loader ]( https://github.com/webpack-contrib/stylus-loader )    <br/>
+   # cross-env
+   [ cross-env ]( https://github.com/kentcdodds/cross-env )    <br/>
