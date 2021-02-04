@@ -29,3 +29,5 @@
    [ stylus-loader ]( https://github.com/webpack-contrib/stylus-loader )    <br/>
    # cross-env
    [ cross-env ]( https://github.com/kentcdodds/cross-env )    <br/>
+   # babel-loader
+   [ babel-loader ]( https://github.com/babel/babel-loader )    <br/>
