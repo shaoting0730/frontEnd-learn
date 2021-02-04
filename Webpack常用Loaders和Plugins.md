@@ -31,3 +31,6 @@
    [ cross-env ]( https://github.com/kentcdodds/cross-env )    <br/>
    # babel-loader
    [ babel-loader ]( https://github.com/babel/babel-loader )    <br/>
+   # extract-text-webpack-plugin
+   [ extract-text-webpack-plugin ]( https://github.com/webpack-contrib/extract-text-webpack-plugin )    <br/>
+
