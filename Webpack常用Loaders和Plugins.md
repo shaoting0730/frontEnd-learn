@@ -33,4 +33,7 @@
    [ babel-loader ]( https://github.com/babel/babel-loader )    <br/>
    # extract-text-webpack-plugin
    [ extract-text-webpack-plugin ]( https://github.com/webpack-contrib/extract-text-webpack-plugin )    <br/>
+   # 压缩代码 uglifyjs-webpack-plugin
+   [ uglifyjs-webpack-plugin ]( https://github.com/webpack-contrib/uglifyjs-webpack-plugin )    <br/>
 
+   
