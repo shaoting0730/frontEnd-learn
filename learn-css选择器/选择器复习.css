@@ -1,0 +1,36 @@
+/* 通配符选择器 */
+* {
+    background-color: lightpink;
+}
+/* 元素选择器 */
+ol {
+    font-size: 40px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* 类选择器 */
+.lilili{
+  background-color: yellow;
+}
+/* id选择器*/
+#lilili{
+    background-color: olivedrab;
+}
+/* 属性选择器 */
+a[href='www.baidu.com'][title='title']{
+    background-color: steelblue;
+}
+/* 后代选择器 */
+div em{
+    background-color: turquoise;
+}
+/* 子元素选择器 */
+li > strong{
+  font-size: 7px;
+}
+/* 相邻兄弟选择器 */
+h2 + h2 {
+    background-color: aliceblue;
+}

@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  max-width: 540px;
+  min-width: 320px;
+  margin: 0 auto;
+  background: #f2f2f2;
+}
+/* 搜索条 */
+.search-context{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.seach-input{
+  padding: 5px 0px 5px 50px;
+  border: pink 1px solid; 
+  width: 400px;
+  color:aqua;
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 5px 3px 2px 1px rgba(0,0,0,.2);
+}
+.search-mine{
+  margin-left: 15px;
+  padding-right: 10px;
+  color: rgb(255, 0, 140);
+}
+/* 景点 */
+.landscape-tab{
+  margin-top: 30px;
+  list-style:none;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 60px;
+  border-radius: 8px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+/* 酒店 机票 旅行*/
+.hotel{
+  display: flex;
+  margin-top: 5px;
+}
+.hotel-name{
+  width: 33%;
+  height: 70px;
+  background-color: pink;
+  text-align: center;
+  padding-top: 20px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  color: white;
+}
+.hotel-type{
+  width: 67%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hotel-child{
+  width: 49%;
+  height: 49%;
+  background-color: pink;
+  text-align: center;
+  margin-left: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+/* tag */
+.bottom-view{
+  margin-top: 10px;
+  background-color: white;
+  width: 100%;
+  border-radius: 8px;
+}
+.bottom-view span{
+  padding: 10px;
+  color: pink;
+  display: inline-block;
+  width: 120px;
+}
+/* tip */
+.tip{
+  height: 80px;
+  background-color: white;
+  margin-top: 2px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+  font-size: 12px;
+}
+.desc{
+  background-image: linear-gradient(to right, red , yellow);
+  padding: 5px 15px;
+  color: white;
+  border-radius: 20px;
+}
