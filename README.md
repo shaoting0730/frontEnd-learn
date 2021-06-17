@@ -1,9 +1,12 @@
 # 前端学习
+   [ B站-前端学习路线 ](     https://www.bilibili.com/read/cv5650633?spm_id_from=333.788.b_636f6d6d656e74.5 )    <br/>
+
    ## 终端美化&vscode美化：
    [ vscode美化文章1 ]( https://www.dazhuanlan.com/2019/10/21/5dad29a00b68f/ )    <br/>
    [ vscode美化文章2 ]( https://zhuanlan.zhihu.com/p/37195261 )    <br/>
    [ vscode美化文章: 本猿参考这个 ]( https://sspai.com/post/53008 )    <br/>
    [ vscode内部终端UI ](    https://xbuba.com/questions/50992108 )    <br/>
+   
    ## Vue & React
    [ 搭个界面 ]( https://github.com/pheromone/frontEnd-learn/tree/master/%E6%97%85%E8%A1%8C )    <br/>
    [ Vue 学习历程 ]( https://github.com/pheromone/vue-learn )   <br/>
