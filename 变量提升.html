@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>变量提升</title>
+    <script type="text/javascript">
+        console.log(a1); // undefined
+        console.log(a2); // function a2(){}
+        console.log(a3);// undefined 
+        a2();
+        var a1 = 3;
+        function a2() {
+            console.log(this);  // window......
+            console.log(arguments)  // Arguments  [callee: ƒ, Symbol(Symbol.iterator): ƒ] .....
+        }
+        var a3 = function a33(){
+
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
