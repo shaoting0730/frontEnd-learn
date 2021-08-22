@@ -23,6 +23,8 @@
    [ webpack-bundle-analyzer ]( https://github.com/webpack-contrib/webpack-bundle-analyzer )    <br/>
    # css 代码分割
    [ mini-css-extract-plugin ]( https://github.com/webpack-contrib/mini-css-extract-plugin )    <br/>
+   # css 代码压缩
+   [ optimize-css-assets-webpack-plugin ]( https://github.com/NMFR/optimize-css-assets-webpack-plugin )    <br/>
    # vue-loader
    [ vue-loader ]( https://github.com/vuejs/vue-loader )    <br/>
    # stylus-loader
