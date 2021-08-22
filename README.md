@@ -13,6 +13,7 @@
    [ React 学习历程 ]( https://github.com/pheromone/react-learn )   <br/>
    ## 杂七杂八
    [ Webpack常用Loaders和Plugins ]( https://github.com/pheromone/frontEnd-learn/blob/master/Webpack%E5%B8%B8%E7%94%A8Loaders%E5%92%8CPlugins.md )    <br/>
+   [ Webpack学习 ](    https://github.com/pheromone/frontEnd-learn/tree/master/webpack%E8%B5%84%E6%96%99 )    <br/>
    [ 常用库 ]( https://github.com/pheromone/frontEnd-learn/blob/master/%E5%B8%B8%E7%94%A8%E5%BA%93.md )    <br/>
    [ web-马赛克学习 ]( https://github.com/pheromone/web-mosaic )  [![GitHub stars](https://img.shields.io/github/stars/pheromone/web-mosaic.svg?style=social&label=Stars)](https://github.com/pheromone/web-mosaic)   <br/>
    [ web-精灵图学习 ]( https://github.com/pheromone/sprite-sheet ) [![GitHub stars](https://img.shields.io/github/stars/pheromone/sprite-sheet.svg?style=social&label=Stars)](https://github.com/pheromone/sprite-sheet)    <br/>
