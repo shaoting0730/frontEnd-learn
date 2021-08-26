@@ -39,4 +39,5 @@
    [ uglifyjs-webpack-plugin ]( https://github.com/webpack-contrib/uglifyjs-webpack-plugin )    <br/>
    # PWA
    [ workbox-webpack-plugin ](    https://www.npmjs.com/package/@anilanar/workbox-webpack-plugin )    <br/>
-   
+   # 多进程打包 thread-loader
+   [ thread-loader ](    https://github.com/webpack-contrib/thread-loader )    <br/>
