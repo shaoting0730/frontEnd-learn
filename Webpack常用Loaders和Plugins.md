@@ -37,5 +37,6 @@
    [ extract-text-webpack-plugin ]( https://github.com/webpack-contrib/extract-text-webpack-plugin )    <br/>
    # 压缩代码 uglifyjs-webpack-plugin ps:压缩后,bannerplugin代码会失效
    [ uglifyjs-webpack-plugin ]( https://github.com/webpack-contrib/uglifyjs-webpack-plugin )    <br/>
-
+   # PWA
+   [ workbox-webpack-plugin ](    https://www.npmjs.com/package/@anilanar/workbox-webpack-plugin )    <br/>
    
