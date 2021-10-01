@@ -1,5 +1,6 @@
 # 前端学习
    [ B站-前端学习路线 ](     https://www.bilibili.com/read/cv5650633?spm_id_from=333.788.b_636f6d6d656e74.5 )    <br/>
+   [ 浏览器工作原理与实践：提取码 25d1 ](   https://pan.baidu.com/s/1NOgWIVjE7FEJpumOk5c58g )    <br/>
 
    ## 终端美化&vscode美化：
    [ vscode美化文章1 ]( https://www.dazhuanlan.com/2019/10/21/5dad29a00b68f/ )    <br/>
