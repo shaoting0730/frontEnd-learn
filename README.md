@@ -32,11 +32,9 @@
    [ 闭包 ]( https://github.com/pheromone/frontEnd-learn/tree/master/%E9%97%AD%E5%8C%85 )    <br/>
 
 
-  ##   物联网相关
-   [ HarmonyOS：分布式软总线相关 ]( https://github.com/pheromone/frontEnd-learn/tree/master/%E6%97%85%E8%A1%8C )    <br/>
+   ## 物联网
+   [ 物联网相关 ](    https://github.com/pheromone/frontEnd-learn/tree/master/%E7%89%A9%E8%81%94%E7%BD%91%E7%9B%B8%E5%85%B3 )    <br/>
 
-
-   
 
   
    
