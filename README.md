@@ -4,7 +4,7 @@
    [ WebAssembly ](   https://developer.mozilla.org/zh-CN/docs/WebAssembly )    <br/>
    [ WebAssembly介绍 ](   https://zhuanlan.zhihu.com/p/653338467?utm_id=0 )    <br/>
    [ WebAssembly-rust-B站原子之音 ](   https://www.bilibili.com/video/BV19a41127Dq/?spm_id_from=333.337.search-card.all.click&vd_source=bc5bee468c2cbda6193e66c4288c8c7b )    <br/>
-   [ WebAssembly-rust-B站杨旭 ](   https://www.bilibili.com/video/BV19a41127Dq/?spm_id_from=333.337.search-card.all.click&vd_source=bc5bee468c2cbda6193e66c4288c8c7b )    <br/>
+   [ WebAssembly-rust-B站杨旭 ](   https://www.bilibili.com/video/BV1RP4y1G7KF/?spm_id_from=333.337.search-card.all.click&vd_source=bc5bee468c2cbda6193e66c4288c8c7b )    <br/>
 
    ## 终端美化&vscode美化：
    [ vscode美化文章1 ]( https://www.dazhuanlan.com/2019/10/21/5dad29a00b68f/ )    <br/>
