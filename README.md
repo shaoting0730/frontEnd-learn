@@ -2,6 +2,9 @@
    [ B站-前端学习路线 ](     https://www.bilibili.com/read/cv5650633?spm_id_from=333.788.b_636f6d6d656e74.5 )    <br/>
    [ 浏览器工作原理与实践：提取码 25d1 ](   https://pan.baidu.com/s/1NOgWIVjE7FEJpumOk5c58g )    <br/>
    [ WebAssembly ](   https://developer.mozilla.org/zh-CN/docs/WebAssembly )    <br/>
+   [rust-Web­Assembly](https://www.rust-lang.org/zh-CN/what/wasm)   <br/> 
+   [rust-Web­Assembly: book]( https://rustwasm.github.io/docs/book/introduction.html )   <br/> 
+   [rust-Web­Assembly: book：中文]( https://rustwasm.wasmdev.cn/docs/book/ )   <br/> 
    [ WebAssembly介绍 ](   https://zhuanlan.zhihu.com/p/653338467?utm_id=0 )    <br/>
    [ WebAssembly-rust-B站原子之音 ](   https://www.bilibili.com/video/BV19a41127Dq/?spm_id_from=333.337.search-card.all.click&vd_source=bc5bee468c2cbda6193e66c4288c8c7b )    <br/>
    [ WebAssembly-rust-B站软件工艺师杨旭 ](   https://www.bilibili.com/video/BV1RP4y1G7KF/?spm_id_from=333.337.search-card.all.click&vd_source=bc5bee468c2cbda6193e66c4288c8c7b )    <br/>
