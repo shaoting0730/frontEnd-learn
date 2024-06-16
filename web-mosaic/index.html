@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="Keywords" content="马赛克 canvas">
+    <meta name="Description" content="学习前端马赛克">
+</head>
+<style>
+    canvas {
+        border: 1px black solid;
+
+    }
+</style>
+
+<body>
+    <div id="mask">
+        <canvas width="600" height="600">
+        </canvas>
+        <input type="file" class='input'>
+    </div>
+    <script>
+        var canvas = document.querySelector('canvas');
+        var input = document.querySelector('#mask .input');
+        var ctx = canvas.getContext('2d');
+        var mousedown = false;
+        var t = 15;
+        input.onchange = function () {
+            loadimg();
+        }
+        /**
+         *加载图片
+         */
+        function loadimg() {
+            var img = new Image();
+            img.src = window.URL.createObjectURL(input.files[0]);
+            img.onload = function () {
+                ctx.drawImage(img, 0, 0, 600, 600);
+            }
+            register();
+        }
+        /**
+         *添加监听
+         */
+        function register() {
+            canvas.addEventListener('mousedown', action)
+            canvas.addEventListener('mousemove', action)
+            canvas.addEventListener('mouseup', action)
+        }
+         /**
+         *方法触发
+         */   
+        function action(e) {
+            var dx = parseInt(((e.offsetX - t / 2) / t) * t)
+            var dy = parseInt(((e.offsetY - t / 2) / t) * t)
+            if (e.type == "mousedown") {
+                mousedown = true;
+                computeColor(dx, dy);
+            }
+            if (mousedown && e.type == "mousemove") {
+                computeColor(dx, dy);
+            }
+            if (e.type == "mouseup") {
+                mousedown = false;
+            }
+        }
+
+        /*
+         * 画小方块
+         */
+         function rect(x, y, c) {
+            ctx.beginPath();
+            ctx.fillStyle = c;
+            var dx = parseInt(x / t)*t,dy = parseInt(y / t)*t
+            ctx.rect(dx, dy, t, t);
+            ctx.fill();
+        }
+        /**
+        计算颜色
+        */
+        function computeColor(x, y) {
+            var arrList = restore(ctx.getImageData(x,y,t,t).data,4); //一维数组
+            var vr = 0, vg = 0, vb = 0,al = arrList.length;
+            for(var i = 0; i < al; i++){
+                vr += arrList[i][0];
+                vg += arrList[i][1];
+                vb += arrList[i][2];
+                var color = 'rgb(' + Math.floor(vr/al) + ',' + Math.floor(vg/al) + ',' +  Math.floor(vb/al) + ')';
+                rect(x,y,color);
+            }
+        }
+        /**
+         *数组升维 [1,2,3,4] => [[1,2],[3,4]]
+         */
+        function restore(arr, step) {
+              var list = [];
+              var index = 0;
+              var n = Math.floor(arr.length/step);
+              for(var i = 0; i < n ;i++){
+                list.push(arr.slice(index,index+step));
+                index += step;
+              }  
+              return list;
+        }        
+    </script>
+</body>
+
+</html>
