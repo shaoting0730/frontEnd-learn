@@ -24,8 +24,8 @@
    [ Webpack常用Loaders和Plugins ]( https://github.com/shaoting0730/frontEnd-learn/blob/master/Webpack%E5%B8%B8%E7%94%A8Loaders%E5%92%8CPlugins.md )    <br/>
    [ Webpack学习 ](    https://github.com/shaoting0730/frontEnd-learn/tree/master/webpack%E8%B5%84%E6%96%99 )    <br/>
    [ 常用库 ]( https://github.com/shaoting0730/frontEnd-learn/blob/master/%E5%B8%B8%E7%94%A8%E5%BA%93.md )    <br/>
-   [ web-马赛克学习 ]( https://github.com/shaoting0730/web-mosaic )  [![GitHub stars](https://img.shields.io/github/stars/shaoting0730/web-mosaic.svg?style=social&label=Stars)](https://github.com/shaoting0730/web-mosaic)   <br/>
-   [ web-精灵图学习 ]( https://github.com/shaoting0730/sprite-sheet ) [![GitHub stars](https://img.shields.io/github/stars/shaoting0730/sprite-sheet.svg?style=social&label=Stars)](https://github.com/shaoting0730/sprite-sheet)    <br/>
+   [ web-马赛克学习 ]( https://github.com/shaoting0730/frontEnd-learn/tree/master/web-mosaic )   <br/>
+   [ web-精灵图学习 ]( https://github.com/shaoting0730/frontEnd-learn/tree/master/sprite-sheet )    <br/>
    [ css大佬-chokcoco的iCSS ](       https://github.com/chokcoco/iCSS )    <br/>
    [ css大佬-Chokcoco的codepen ](   https://codepen.io/Chokcoco/pens/showcase    )    <br/>
    [ css学习 ](   https://github.com/shaoting0730/cssStudy )  [![GitHub stars](https://img.shields.io/github/stars/shaoting0730/cssStudy.svg?style=social&label=Stars)](https://github.com/shaoting0730/cssStudy)    <br/>
