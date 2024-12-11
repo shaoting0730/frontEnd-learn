@@ -20,6 +20,6 @@ npm run build --report
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 <br/>
-![image](https://github.com/pheromone/vue_demo/blob/master/1.png) <br/>
-![image](https://github.com/pheromone/vue_demo/blob/master/2.png) <br/>
-![image](https://github.com/pheromone/vue_demo/blob/master/3.png) <br/> 
+![image](https://github.com/shaoting0730/frontEnd-learn/blob/master/vue-learn/vue_demo/1.png) <br/>
+![image](https://github.com/shaoting0730/frontEnd-learn/blob/master/vue-learn/vue_demo/2.png) <br/>
+![image](https://github.com/shaoting0730/frontEnd-learn/blob/master/vue-learn/vue_demo/3.png) <br/> 
